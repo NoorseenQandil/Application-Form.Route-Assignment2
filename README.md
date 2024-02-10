@@ -6,6 +6,8 @@ Application form created with HTML only.
 - Icludes 6 inputs for first name, second name, email, password and repassword.
 - Includes checkbox to select gender.
 - Includes radio button to select if you are student or graduated.
+- Includes a dropdown menu to select group.
+- Includes submit button.
   
 ## Getting Started
 1- Clone or download this repository to your local machine.
@@ -15,7 +17,7 @@ Application form created with HTML only.
 ## Live Demo
  Experience the Tabs Project in action! Click the link below to access the live demo:
 
-[Live Demo] (https://noorseenqandil.github.io/Pizzeria-Resturant.-Route-Assignment1/)
+[Live Demo] (https://noorseenqandil.github.io/Application-Form.Route-Assignment2/)
 
 Feel free to interact with the project, browse through different jobs, and explore the user-friendly interface. The live demo provides a hands-on experience to see the Tabs Project in action.
 
