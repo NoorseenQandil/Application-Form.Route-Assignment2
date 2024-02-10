@@ -1,0 +1,151 @@
+<html>
+
+<head> </head>
+
+<body style="background-color: #4F709C; color: aliceblue;">
+    <form>
+        <fieldset> 
+            <legend style="background-color:#E5D283; color: #213555;"> 
+                Personal Data
+            </legend>
+            <br />
+            <fieldset style="background-color:blanchedalmond;"> 
+                <table>
+                    <thead>
+                        <tr>
+
+                            <legend style="background-color:#E5D283; color: #213555; width:85; height: 90;">
+                                <br /><br /> Your Name
+                            </legend>
+
+                        </tr>
+                    </thead>
+
+                    <tbody style="color: #213555;">
+                        <tr>
+                            <td>
+                                <label>First Name</label>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <br/>
+                            <td>
+                                <input type="text" name="firstName" value="" placeholder="ex.ahmed" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Second Name</label>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <input type="text" name="secondName" value="" placeholder="ex.bahnsy" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <br /> <br />
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label>Your Phone </label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="text" name="phone" value="" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Email </label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="email" name="email" value="" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Password </label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="password" name="password" value="" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Repassword </label>
+                        </td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td>
+                            <input type="password" name="repassword" value="" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--Radio Button-->
+            <br />
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label><br>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label><br>
+
+            
+            <br />
+            <input type="checkbox" name="state" value="Student">
+            <label> Student</label><br>
+
+            <input type="checkbox" name="state" value="Graduated">
+            <label> Graduated</label><br>
+
+            
+            <br />
+            <select name="group">
+                <optgroup label="Group 1">
+                    <option value="Option 1.1" selected>Option 1.1</option>
+                </optgroup>
+
+                <optgroup label="Group 2">
+                    <option value="Option 2.1">Option 2.1</option>
+                    <option value="Option 2.2">Option 2.2</option>
+                </optgroup>
+
+                <optgroup label="Group 3" disabled>
+                    <option value="Option 3.1">Option 3.1</option>
+                    <option value="Option 3.2">Option 3.2</option>
+                    <option value="Option 3.3">Option 3.3</option>
+                </optgroup>
+            </select>
+
+            <br />
+            
+            <button>
+                <img src="images/submit.png" alt="Submit button" width="100" />
+            </button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
